@@ -1,0 +1,86 @@
+body { 
+    margin: 0;
+    color: rgb(216, 218, 255);
+    background-color: rgb(17, 18, 27);
+    font-family: 'Roboto Mono', monospace;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    min-height: 100vh;
+    text-align: center; 
+}
+
+
+h1 {
+    font-size: 2.5rem;
+}
+
+p {
+    width: 60vw;
+}
+
+
+
+.text-styling {
+    font-size: 1.5rem;
+    text-shadow: 1px 3px 4px rgba(20, 22, 26, 0.6);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 15%;
+    padding-bottom: 1rem;
+
+    background: rgba(25, 15, 44, 0.2);
+    border-radius: 1rem;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    border: 1px solid rgba(74, 66, 88, 0.3);
+    
+}
+
+.parallax {
+    min-height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover; 
+    background-position: center;
+    background-attachment: fixed;
+    padding: 1rem;
+    overflow: hidden;
+    margin: 0;
+}
+
+.image1 {
+    background-image: url('images/octo-1.jpg');
+}
+
+.image2 {
+    background-image: url('images/octo-2.jpg');
+}
+
+.image3 {
+    background-image: url('images/octo-3.jpg');
+}
+
+.image4 {
+    background-image: url('images/octo-4.jpg');
+}
+
+.image5 {
+    background-image: url('images/octo-5.jpg');
+}
+
+a {
+    margin-top: 2rem;
+    margin: 0.5rem auto;
+    text-decoration: none;
+    color:  rgb(216, 218, 255);
+    font-size: 1.2rem;
+}
+
+a:hover {
+    color: rgb(128, 154, 201);
+}
